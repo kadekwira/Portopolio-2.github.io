@@ -1,0 +1,341 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    margin:0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 2rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight:bold;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#navbar a{
+    color:black;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+.active,#navbar a:hover{
+    border-bottom:3px solid red;
+}
+#avatar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+#avatar img{
+    width:2.5rem;
+    height:2.5rem;
+    border-radius: 70px;
+    border: 3px solid rgb(85, 83, 83);
+    padding: 0.1rem;
+    cursor: pointer;
+}
+
+/* main */
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+#cek{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    top:4.7rem;
+    width:800px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.cancel{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 2px solid rgb(113, 108, 108,.10);
+}
+.cancel img{
+    width:30px;
+    height:30px;
+}
+.image{
+    display: flex;
+    align-self: center;
+    width: 750px;
+    height:550px;
+    padding: 1rem;
+}
+.image img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.jumbo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    margin-top:3rem;
+    width:500px;
+    /* padding:1rem; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    gap:1rem;
+}
+.mainImg{
+    width:300px;
+    height:300px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    width:200px;
+    cursor: pointer;
+    border:none;
+    background-color: rgb(198, 43, 0);
+    padding:5px;
+    margin:15px;
+    border-radius: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width:800px;
+    box-sizing: border-box;
+}
+.card{
+    position: relative;
+    top:70px;
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    padding:1rem;
+    margin:0.5rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+ .judul{
+    font-size:1.4rem;
+    font-weight: bold;
+    display: none;
+    justify-content: center;
+    width: 100%;
+    background-color:rgb(198, 43, 0);
+    color: white;
+}
+.card .image{
+    width:210px;
+    height:200px;
+}
+.card >.tombol{
+    display: flex;
+    cursor: pointer;
+    border:none;
+    justify-content:center;
+    background-color: rgb(198, 43, 0);
+    padding:5px;
+    border-radius: 20px;
+}
+
+input{
+    background-color: rgb(198, 43, 0);
+    cursor: pointer;
+    border:none;
+    align-items: center;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.activeSkl{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    opacity: 0.5;
+}
+.image:hover{
+    opacity: 0.5;
+}
+
+/* home */
+#main >#home{
+    display: flex;
+    margin: 2.5rem;
+    gap:3rem;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap:1.4rem;
+    flex:1;
+}
+.title >.nama{
+    margin:0;
+    font-size: 2rem;
+    line-height:3rem;
+    font-weight:bold;
+    color: grey;
+}
+.title >.status{
+    margin:0;
+    font-size: 1.5rem;
+    line-height:3rem;
+    font-weight:600;
+    color: rgb(218, 45, 6);
+}
+.title >.desk{
+    margin:0;
+    font-size: 1rem;
+    color:grey;
+    letter-spacing: 1px;
+}
+.title >.medsos{
+    display: flex;
+    gap:20px
+}
+.igApp{ 
+    width: 25px;
+    height:25px;
+    border:2px solid rgb(200, 77, 97);
+    border-radius: 30px;
+    padding:5px;
+}
+.igHover{
+    width: 25px;
+    height:25px;
+    border-radius: 30px;
+    border:2px solid rgb(200, 77, 97);
+    padding:5px;
+    background-color:rgb(200, 77, 97);
+}
+.gitApp{
+    width: 25px;
+    height:25px;
+    border:2px solid rgb(52, 150, 216);
+    border-radius: 30px;
+    padding:5px;
+}
+.gitHover{
+    width: 25px;
+    height:25px;
+    border-radius: 30px;
+    padding:5px;
+    background-color:rgb(52, 150, 216);
+    border:2px solid rgb(52, 150, 216);
+}
+.emailApp{
+    width: 25px;
+    height:25px;
+    border:2px solid rgb(238, 137, 83);
+    border-radius: 30px;
+    padding:5px;
+}
+.emailHover{
+    width: 25px;
+    height:25px;
+    border-radius: 30px;
+    padding:5px;
+    background-color:rgb(238, 137, 83);
+    border:2px solid rgb(238, 137, 83);
+}
+
+.aset{
+    display: flex;
+    flex-direction: column;
+    flex:2;
+    height:75vh;
+    gap:1rem;
+}
+.image1{
+    display: flex;
+    gap:1.7rem;
+    width:100%;
+    height:50%;
+}
+.image1 >.cod1{
+    width: 50%;
+    height:100%;
+}
+.cod1 img{
+    width: 100%;
+    height: 100%;
+}
+.image1 >.cod2{
+    width: 50%;
+    height:100%;
+}
+.cod2 > img{
+    width: 100%;
+    height:100%;
+}
+.image1>.cod3{
+    width:50%;
+    height:100%;
+}
+.cod3 > img{
+    width:100%;
+    height:100%;
+}
+.image1>.cod4{
+    width:50%;
+    height:100%;
+}
+.cod4 > img{
+    width:100%;
+    height:100%;
+}
+
+/* akhir home */
+
+/* akhir main */
+
+/* footer */
+footer{
+    margin: 100px 0 0 0;
+    display:flex;
+    background-color: rgba(227, 227, 227, 0.307);
+    padding:15px;
+}
+.foot-logo{
+    display:flex;
+   justify-content: center;
+   align-items:center;
+    flex:1;
+}
+.foot-logo img{
+    border-radius: 100px;
+    width:150px;
+    height:150px;
+}
+.foot-desk{
+    display:flex;
+    flex-direction: column;
+    flex:2;
+}
+.foot-name{
+    margin:5px 0 0 0;
+    font-size:20px;
+    font-weight:bold;
+}
+.foot-about{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.foot-medsos{
+    display:flex;
+    margin:10px 0;
+    gap:25px;
+}
+/* akhir footer */
