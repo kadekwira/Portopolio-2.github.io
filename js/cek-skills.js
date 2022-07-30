@@ -5,14 +5,14 @@ cek.setAttribute("id","cek");
 const cancel = document.createElement("div");
 cancel.setAttribute("class","cancel");
 const imageCancel = document.createElement("img");
-imageCancel.setAttribute("src","../assets/image/cancel.gif");
+imageCancel.setAttribute("src","assets/image/cancel.gif");
 cancel.appendChild(imageCancel);
 imageCancel.style.cursor="pointer"
 
 const profile = document.createElement("div");
 profile.setAttribute("class","image");
 const imageProf = document.createElement("img");
-imageProf.setAttribute("src","../assets/image/profile.jpeg");
+imageProf.setAttribute("src","assets/image/profile.jpeg");
 profile.appendChild(imageProf);
 
 
